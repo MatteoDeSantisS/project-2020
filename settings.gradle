@@ -1,0 +1,23 @@
+include 'ricette'
+include 'connessioni'
+include 'ricette-seguite'
+include 'api-gateway'
+include 'common-api-command'
+include 'common-api-event'
+include 'connessioni-service-event'
+include 'ricette-service-event'
+include 'ricette-service-api-command'
+
+rootProject.name = 'asw-instagnam'
+
+project(':ricette').name = 'ricette'
+project(':connessioni').name = 'connessioni'
+project(':ricette-seguite').name = 'ricette-seguite'
+project(':api-gateway').name = 'api-gateway'
+include 'common-api-command'
+include 'common-api-event'
+include 'ricette-service-api-command'
+include 'ricette-service-api-event'
+include 'connessioni-service-api-event'
+include 'ricette-seguite-service-api-event'
+
