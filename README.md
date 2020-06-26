@@ -35,7 +35,7 @@ Progetto del corso di Analisi e progettazione del software per l'anno accademico
 ## Esecuzione 
 
 Per eseguire questo progetto: 
-
+* fare il build dei progetti con gradle build
 * avviare *Consul* eseguendo lo script `start-consul.sh` 
 * per avviare kafka ,zookeeper, e i i seguenti database , eseguire lo script 'start-infrastructure'
 * per avviare l'applicazione *Instagnam*, eseguire lo script `run-instagnam.sh` 
